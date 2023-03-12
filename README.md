@@ -1,10 +1,16 @@
 # CSS Frameworks Course Assignment
 
-## Brief
+![image](/resources/css-frameworks-ca_homepage.jpg)
 
-From the supplied design, use Bootstrap or React Bootstrap to create a responsive website.
+Noroff Front-end Dev - CSS Frameworks, Course Assignment
 
-## Level 1 Process
+## Description
+
+Course Assignment to practice creating a responsive website using Bootstrap or React Bootstrap.
+
+- The supplied design in the resources folder.
+
+### Level 1 Process
 
 - You may use React or regular HTML, JavaScript and Sass.
 - You may use Bootstrap or React Bootstrap.
@@ -12,25 +18,35 @@ From the supplied design, use Bootstrap or React Bootstrap to create a responsiv
 - You can use Font Awesome or another icon library for the icons.
 - The fonts in the design are Google fonts.
 
-## Level 2 Process
+### Level 2 Process
 
 - If you use Sass, use BEM to create your class names.
 
-## Resources
+## Built With
 
-The design and additional files can be found in this repo.
+- HTML
+- CSS
+- SASS
+- Bootstrap v5.0
 
-## Marking Criteria
+## Getting Started
 
-- The site should match the design as closely as possible and should be responsive across all device sizes.
-- If your project uses Sass, the files should be appropriately named and arranged in partials.
-- If your project uses React, your components should be appropriately named and arranged.
+### Installing
 
-## Submission
+1. Clone the repo:
 
-- When you accepted this submission, a repository was created for you. Use this repository for your code and submit a link to this repo when you deliver.
-- Remember to EXCLUDE the node_modules folder if you use React or any npm packages
+```bash
+git@github.com:chrirstud/christer-olsen-css-frameworks-ma1.git
+```
 
-## Time
+### Running
 
-40 hours
+## Contributing
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/christer-olsen-b557ab1b4/)
+
+## License
+
+## Acknowledgments
