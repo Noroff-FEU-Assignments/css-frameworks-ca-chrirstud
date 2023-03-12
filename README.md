@@ -36,7 +36,7 @@ Course Assignment to practice creating a responsive website using Bootstrap or R
 1. Clone the repo:
 
 ```bash
-git@github.com:chrirstud/christer-olsen-css-frameworks-ma1.git
+git@github.com:Noroff-FEU-Assignments/css-frameworks-ca-chrirstud.git
 ```
 
 ### Running
