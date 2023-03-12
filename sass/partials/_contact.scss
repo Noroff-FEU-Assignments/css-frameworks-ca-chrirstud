@@ -1,0 +1,86 @@
+.contactgrid {
+  padding-top: 40px;
+
+  &__ list {
+    margin-bottom: 35px;
+  }
+
+  &__list * {
+    background: none;
+    border: none;
+    color: $secondary;
+  }
+
+  &__list i {
+    width: 35px;
+    font-size: 34px;
+    text-align: center;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    background-color: $grey;
+    border-radius: 15px;
+
+    .input-group-text {
+      color: white;
+      background-color: $secondary;
+    }
+
+    .form-check {
+      font-size: 15px;
+      display: grid;
+      grid-template-columns: 35px auto;
+      grid-template-rows: 35px;
+      justify-content: start;
+      align-items: center;
+      height: 35px;
+      margin-bottom: 35px;
+    }
+
+    .form-check-input {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background-color: $primary;
+    }
+
+    button {
+      width: 100%;
+      height: 58px;
+      background-color: $secondary;
+      border: none;
+    }
+
+    @media (max-width: 400px) {
+      .form-check {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contactgrid__row {
+    display: grid;
+    grid-template-areas:
+      "info"
+      "h1"
+      "detailsform";
+  }
+
+  .contactgrid__row h1 {
+    grid-area: h1;
+    margin: 40px 0;
+  }
+
+  .contactgrid__list {
+    grid-area: info;
+  }
+
+  .contactgrid__form {
+    grid-area: detailsform;
+  }
+}

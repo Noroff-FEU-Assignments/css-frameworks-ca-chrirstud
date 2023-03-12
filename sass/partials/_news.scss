@@ -1,0 +1,27 @@
+.newsgrid {
+  margin: 0;
+  padding: 0;
+
+  &__row {
+    justify-content: space-between;
+  }
+
+  &__col {
+    margin-bottom: 2em;
+  }
+
+  &__item {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  &__item .card-body {
+    padding: 30px;
+  }
+}
+
+.newsgrid .btn-primary {
+  width: 100%;
+  background: linear-gradient(to right, $primary 90%, $secondary 10%);
+  border: none;
+}
